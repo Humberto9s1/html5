@@ -55,14 +55,16 @@
 			font-size:.9em;
 			color:#666;
 		}
-        
+
         tbody tr:nth-child(odd) {
-            background-color: beige   
+            background-color: #f0f0f0;
         }
-        
-        tbody tr:nth-child(even) {
-            background-color:antiquewhite  
-        }        
+
+
+
+        .coluna_cinza {
+            background-color: #ddd;
+        }	
 	
 	
 	</style>
@@ -72,6 +74,15 @@
         <table>
         
             <caption>Olimpiadas do Rio de Janeiro 2016</caption>
+
+            <colgroup>
+                <col class="coluna_cinza">
+                <col>
+                <col class="coluna_cinza">
+                <col>
+                <col class="coluna_cinza">
+            </colgroup>
+
             <thead>
                 <tr>
                     <td></td>
